@@ -1,0 +1,154 @@
+.product {
+	margin-left: 107px;
+	margin-top: 71px;
+}
+
+.product h3 {
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
+.product h3 a {
+	color: #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: left;
+	text-decoration: none;
+}
+
+.product a:hover {
+	color: #212121;
+	border-bottom: 3px solid black;
+}
+
+.product_box_small_3,
+.block {
+	margin-top: 50px;
+	margin-left: 48px;
+	margin-bottom: 71px;
+}
+
+.product_box_small_3 a {
+	text-decoration: none
+}
+
+.product_box_small_3 li {
+	list-style-type: none;
+	display: inline-block;
+	width: 370px;
+	height: 370px;
+	margin: 15px;
+}
+
+.product_box_small_3 a img:hover {
+	box-shadow: 0px 2px 4.85px 0.15px;
+	color: #212121;
+}
+
+.more {
+	margin-left: 672px;
+	margin-bottom: 140px;
+}
+
+.product_box_big_2 {
+	display: block;
+	height: 683px;
+}
+
+.promo-img1 {
+	width: 683px;
+	height: 683px;
+	background: url(../img/promo-img1.jpg);
+	float: left;
+}
+
+.promo-img {
+	width: 683px;
+	height: 683px;
+	background-image: url(../img/promo-img.jpg);
+	float: right;
+}
+
+.promo-img1 h3,
+.promo-img h3 {
+	margin-top: 228px;
+	margin-left: 51px;
+	color: #1e88e5;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48px;
+}
+
+.promo-img1 h2,
+.promo-img h2,
+.product-1-lg h2 {
+	margin-left: 51px;
+	color: #212121;
+	font-size: 36px;
+	font-weight: 700;
+}
+
+.promo-img1 p,
+.promo-img p,
+.product-1-lg p {
+	margin-left: 51px;
+	color: #6c6c6c;
+	font-size: 13.99px;
+	line-height: 24px;
+	transform: scaleY(1.0022);
+	margin-top: 0px;
+}
+
+.promo-img1 a,
+.promo-img a {
+	display: block;
+	box-shadow: 0px 2px 4.85px 0.15px;
+	width: 212px;
+	height: 45px;
+	border-radius: 22px;
+	text-decoration: none;
+	text-align: center;
+	color: #212121;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	line-height: 45px;
+	margin-top: 34px;
+	margin-left: 50px;
+}
+
+.promo-img1 a:hover,
+.promo-img a:hover {
+	background: #ffffff url(../img/arrow.png) no-repeat 173px 16px;
+}
+
+.promo-img1 a:active,
+.promo-img a:active {
+	box-shadow: none;
+}
+
+/*.more {
+	display: block;
+	align-content: center;
+}
+.more_pic {
+	margin-top: 50px;
+	margin-left: 48px;
+	margin-bottom: 71px;
+}
+.more_pic li {
+	list-style-type: none;
+	display: none;
+	position: relative;
+	width: 370px;
+	height: 370px;
+	margin: 15px;
+}
+
+.more:active .more_pic li{
+	display: inline-block;
+	position: absolute;
+}
+*/

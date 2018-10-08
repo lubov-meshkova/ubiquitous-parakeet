@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+body {
+	font-family: 'Montserrat';
+	width: 1366px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 63px;
+	margin-left: 93px;
+}
+
+.header {
+	background-color: #f5f5f5;
+	height: 360px;
+}
+
+.menu {
+	float: right;
+	margin-top: 63px;
+	margin-right: 175px;
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.point {
+	color: #8c8c8c;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 48px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.point:hover {
+	color: #212121;
+	font-weight: 600px;
+	border-bottom: 3px solid black;
+}
+
+.loupe {
+	padding-top: 12px;
+}
+
+.text {
+	margin-top: 168px;
+	margin-left: 101px;
+}
+
+.text h1 {
+	color: #212121;
+	font-size: 62px;
+	font-weight: 100;
+	line-height: 72px;
+	text-align: left;
+}
+
+.footer {
+	display: block;
+	background-color: #f7f7f7;
+	height: 384px;
+	padding-top: 120px;
+}
+
+.contact {
+	padding-left: 99px;
+	float: left;
+}
+
+.contact h3,
+.info h3,
+.subscribe h3 {
+	color: #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+
+}
+
+.info {
+	padding-left: 81px;
+	float: left;
+}
+
+.info td {
+	padding-right: 103px;
+	padding-bottom: 5px;
+	color: #212121;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+	text-align: left;
+}
+
+.info td a {
+	text-decoration: none;
+	color: #212121;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+.info td a:hover {
+	box-shadow: 0px 0px 4px 0px;
+}
+
+.subscribe {
+	float: right;
+	width: 363px;
+}
+
+input {
+	width: 300px;
+	Размер уменьшен сознательно, т.к. поле "вылетало"
+	height: 48px;
+	color: #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding-left: 19px;
+}
+
+form {
+	margin-top: 26px;
+	display: flex;
+	border-width: 1px;
+	border-color: #d9dee1;
+	border-style: solid;
+	background-color: #ffffff;
+	width: 330px;
+	height: 46px;
+}
+
+input[type="email"] {
+	width: 80%;
+	font-family: Montserrat;
+	color: #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: left;
+	border: none;
+	text-indent: 19px;
+}
+
+input[type="image"] {
+	width: 28px;
+	height: 28px;
+	margin: auto;
+	display: block;
+}
+
+.submit {
+	background-color: #fff;
+	border: none;
+	width: 20%;
+	height: 100%;
+	display: flex;
+}
+
+.right {
+	padding-top: 336px;
+	padding-left: 98px;
+}
+
+.right img {
+	padding-left: 158px;
+	display: inline-block;
+}
+
+.right h3 {
+	display: inline-block;
+	color: #6c6c6c;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+.h3_left {
+	float: left;
+}
+
+.h3_right {
+	float: right;
+	padding-right: 97px;
+}

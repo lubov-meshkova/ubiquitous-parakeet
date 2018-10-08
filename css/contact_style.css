@@ -1,0 +1,50 @@
+.main {
+	margin-top: 71px;
+	margin-left: 98px;
+}
+
+.address_california {
+	padding-top: 48px;
+	width: 370px;
+	height: 322px;
+	float: left;
+	display: inline-block;
+	text-align: center;
+	outline: 1px solid #9c9c9c;
+	margin-right: 30px;
+}
+
+.address_california h1 {
+	color: #212121;
+	font-size: 21.91px;
+	font-weight: 700px;
+	line-height: 30px;
+	transform: scaleX(1.0041);
+}
+
+.text_gray {
+	color: #6c6c6c;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20.082px;
+	margin-bottom: -15px;
+}
+
+.text_black {
+	color: #212121;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 20.082px;
+}
+
+.main p {
+	color: #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+	transform: scaleX(1.0041)
+}
+
+.clr {
+	clear: both;
+	margin-bottom: 122px;
+}

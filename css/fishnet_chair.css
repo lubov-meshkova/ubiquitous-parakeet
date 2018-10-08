@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+
+body {
+	font-family: 'Montserrat';
+	width: 1366px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-top: 63px;
+	margin-left: 93px;
+}
+
+.header {
+	height: 119px;
+	display: block;
+}
+
+.menu {
+	float: right;
+	margin-top: 63px;
+	margin-right: 175px;
+
+}
+
+.menu li {
+	list-style-type: none;
+	float: left;
+}
+
+.menu li a {
+	display: inline-block;
+	text-decoration: none;
+	color: #8c8c8c;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 48px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.menu li a:hover {
+	border-bottom: 3px solid black;
+	color: #212121;
+	font-weight: 600;
+}
+
+.loupe {
+	padding-top: 12px;
+}
+
+.clr {
+	display: block;
+	height: 10px;
+}
+
+.nav {
+	width: 1366px;
+	height: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f4f4f4;
+}
+
+.nav h3 {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.nav h3 a {
+	color: #6c6c6c;
+	font-size: 17.99px;
+	font-weight: 700;
+	text-align: center;
+	transform: scaleY(1.0006);
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #212121;
+	font-size: 17.99px;
+	font-weight: 700px;
+}
+
+
+.foto {
+	float: left;
+	display: inline-block;
+	margin-top: 72px;
+	margin-left: 98px;
+}
+
+.prod_info {
+	display: inline-block;
+	width: 520px;
+	margin-top: 119px;
+	margin-left: 61px;
+}
+
+.prod_info h1,
+.prod_info h2,
+.prod_info h3 {
+	text-align: center
+}
+
+.prod_info h1 {
+	color: #212121;
+	font-size: 35.98px;
+	font-weight: 700;
+	transform: scaleY(1.0005);
+	margin-bottom: -20px;
+}
+
+.prod_info h3 {
+	color: #e53935;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 48px;
+	text-align: center;
+	transform: scaleY(1.0005);
+}
+
+.prod_info h2 {
+	/*font-family: Gotham; насколько я поняла, этот шрифт платный, а на google fonts его нет, поэтому я его не использую*/
+	color: 212121;
+	font-size: 57px;
+	font-weight: 300;
+	line-height: 20px;
+}
+
+.prod_info a {
+	display: block;
+	background-color: #f44336;
+	box-shadow: 0px 2px 4.85px 0.15px;
+	width: 510px;
+	height: 44px;
+	border-radius: 100px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 27px;
+	color: #ffffff;
+	font-size: 21.99px;
+	font-weight: 700px;
+	line-height: 24px;
+	transform: scaleY(1.0005);
+	letter-spacing: 2px;
+	margin-bottom: 49px;
+}
+
+.prod_info a:hover {
+	background: #f44336 url(../img/arrow_w.png) no-repeat 334px 25px;
+}
+
+.prod_info p {
+	color: #212121;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 24px;
+	transform: scaleY(1.0005);
+}
+
+.clr {
+	clear: both;
+}
+
+.product_box_small_3 h2 {
+	display: inline-block;
+	float: left;
+	color: #212121;
+	font-size: 36px;
+	font-weight: 700;
+	margin-left: 60px;
+}
+
+.product_box_small_3 h4 {
+	display: inline-grid;
+	float: right;
+	color: #212121;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: center;
+	background: #ffffff;
+	padding-top: 16px;
+	margin-right: 118px;
+	width: 180px;
+}
+
+.product_box_small_3 h4 a {
+	color: #212121;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.product_box_small_3 h4 a:hover {
+	background: url(../img/arrow.png) no-repeat 160px 5px;
+}
+
+.product_box_small_3,
+.block {
+	margin-top: 50px;
+	margin-left: 48px;
+	margin-bottom: 71px;
+}
+
+.product_box_small_3 a {
+	text-decoration: none
+}
+
+.product_box_small_3 li {
+	list-style-type: none;
+	display: inline-block;
+	width: 370px;
+	height: 370px;
+	margin: 15px;
+}
+
+.product_box_small_3 a img:hover {
+	box-shadow: 0px 2px 4.85px 0.15px;
+	color: #212121;
+}
+
+
+.footer {
+	display: block;
+	background-color: #f7f7f7;
+	height: 384px;
+	padding-top: 120px;
+}
+
+.contact {
+	padding-left: 99px;
+	float: left;
+}
+
+.contact h3,
+.info h3,
+.subscribe h3 {
+	color: #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 24px;
+}
+
+.info {
+	padding-left: 81px;
+	float: left;
+}
+
+.info td {
+	padding-right: 103px;
+	padding-bottom: 5px;
+	color: #212121;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+	text-align: left;
+}
+
+.info td a {
+	text-decoration: none;
+	color: #212121;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+.info td a:hover {
+	box-shadow: 0px 0px 4px 0px;
+}
+
+.subscribe {
+	float: right;
+	width: 363px;
+}
+
+input {
+	width: 300px;
+	Размер уменьшен сознательно,
+	т.к. поле "вылетало"
+	height: 48px;
+	color: #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding-left: 19px;
+}
+
+form {
+	margin-top: 26px;
+	display: flex;
+	border-width: 1px;
+	border-color: #d9dee1;
+	border-style: solid;
+	background-color: #ffffff;
+	width: 330px;
+	height: 46px;
+}
+
+input[type="email"] {
+	width: 80%;
+	font-family: Montserrat;
+	color: #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: left;
+	border: none;
+	text-indent: 19px;
+}
+
+input[type="image"] {
+	width: 28px;
+	height: 28px;
+	margin: auto;
+	display: block;
+}
+
+.submit {
+	background-color: #fff;
+	border: none;
+	width: 20%;
+	height: 100%;
+	display: flex;
+}
+
+.right {
+	padding-top: 336px;
+	padding-left: 98px;
+}
+
+.right img {
+	padding-left: 158px;
+	display: inline-block;
+}
+
+.right h3 {
+	display: inline-block;
+	color: #6c6c6c;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 26px;
+}
+
+.h3_left {
+	float: left;
+}
+
+.h3_right {
+	float: right;
+	padding-right: 97px;
+}
